@@ -1,7 +1,9 @@
 pipeline {
-  stage('build') {
-    steps {
-      sh 'echo "hello world"'
+  stages{
+    stage('build') {
+      steps {
+        sh 'echo "hello world"'
+      }
     }
   }
 }
