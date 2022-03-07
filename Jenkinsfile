@@ -3,7 +3,8 @@ pipeline {
   stages {
     stage('echo') {
       steps {
-        sh 'echo "hello"'
+        cmd_exec('echo "Buils starting..."')
+        cmd_exec('echo "dir /a /b"')
       }
     }
   }
