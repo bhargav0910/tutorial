@@ -3,8 +3,7 @@ pipeline {
   stages {
     stage('echo') {
       steps {
-        cmd_exec('echo "Buils starting..."')
-        cmd_exec('echo "dir /a /b"')
+        echo 'Deploy to staging environment'
       }
     }
   }
